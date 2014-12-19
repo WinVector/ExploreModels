@@ -1,4 +1,4 @@
-#!/usr/local/bin/python
+#!/usr/bin/python
 
 # script from Win-Vector LLC http://www.win-vector.com/ GPL3 license
 # run the data from through scikit-learn
@@ -25,7 +25,6 @@ import os
 # liac-arff https://pypi.python.org/pypi/liac-arff 'pip install liac-arff'
 import arff 
 import gzip
-import sets
 import pandas
 import numpy
 import sklearn.svm
@@ -100,7 +99,7 @@ print 'reading:',tarFileName
 print 'writing data to:',doutfile
 print 'writing problem summaries to:',poutfile
 sys.stdout.flush()
-realTypes = sets.Set(['REAL', 'NUMERIC'])
+realTypes = set(['REAL', 'NUMERIC'])
 
 # mark first maximal element with 1, else with zero
 # v numeric array
@@ -123,7 +122,7 @@ def smoothElevate(vIn,epsilon):
    v = numpy.array(vIn)
    n = len(v)
    while True:
-      peggedIndices = sets.Set([i for i in range(n) if v[i]<=epsilon])
+      peggedIndices = set([i for i in range(n) if v[i]<=epsilon])
       neededMass = sum([epsilon - v[i] for i in peggedIndices])
       if neededMass<=0.0:
          return v
@@ -140,7 +139,7 @@ def processArff(name,reln):
    ncol = len(attr)
    # assuming unique non-numeric feature is category to be predicted
    features = [ i for i in range(ncol) if isinstance(attr[i][1],basestring) and attr[i][1] in realTypes ]
-   outcomes = [ i for i in range(ncol) if not i in sets.Set(features) ]
+   outcomes = [ i for i in range(ncol) if not i in set(features) ]
    if (not len(outcomes)==1) or (len(features)<=0):
       print '\tskip (not in std form)',name,attr,os.getpid(),time.strftime("%c")
       sys.stdout.flush()
@@ -149,13 +148,13 @@ def processArff(name,reln):
    xvars = [ [ row[i] for i in features ] for row in data ]
    yvar = [ row[outcome] for row in data ]
    nrow = len(yvar)
-   levels = sorted([ l for l in sets.Set(yvar) ])
+   levels = sorted([ l for l in set(yvar) ])
    nlevels = len(levels)
    levelMap = dict([ (levels[j],j) for j in range(nlevels) ])
    prng = numpy.random.RandomState(randSeed)
    def scoreRows(testIndices):
       scoredRowsI = []
-      trainIndices = [ i for i in range(nrow) if i not in sets.Set(testIndices) ]
+      trainIndices = [ i for i in range(nrow) if i not in set(testIndices) ]
       if len(trainIndices)>maxCTrainSize:
          trainIndices = sorted(prng.choice(trainIndices,size=maxCTrainSize,replace=False))
       xTrain = [ xvars[i] for i in trainIndices ]
@@ -164,7 +163,7 @@ def processArff(name,reln):
       xTest = [ xvars[i] for i in testIndices ]
       yTest = [ yvar[i] for i in testIndices ]
       nTest = len(yTest)
-      trainLevels = sorted([ l for l in sets.Set(yTrain) ])
+      trainLevels = sorted([ l for l in set(yTrain) ])
       if (nTrain>0) and (nTest>0) and (len(trainLevels)==nlevels):
          # naive non-parametric empirical idea: 
          #    no evidence any event can be rarer than 1/(nTrain+1)

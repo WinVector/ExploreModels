@@ -4,6 +4,8 @@ library(shiny)
 library(shinyRGL)
 source("shinyFunctions.R")
 
+urlNote = 'See <a target="_blank" href="http://www.win-vector.com/blog/2014/12/the-geometry-of-classifiers/">The Win-Vector blog</a> for details.'
+
 
 # Define UI for application that draws a histogram
 shinyUI(fluidPage(
@@ -51,10 +53,10 @@ shinyUI(fluidPage(
     # TODO: tabs for Count Accuracy, Model Distance Dendrogram, Model Distance 3D Plot
     mainPanel (
       tabsetPanel (
-         tabPanel("Average Accuracy", textOutput("plotlabelAA"), plotOutput("accPlot")),
-         tabPanel("Accuracy Counts", textOutput("plotlabelAC"), plotOutput("countPlot")),
-         tabPanel("Model Dendrogram", textOutput("plotlabelDend"), plotOutput("plotDend")),
-         tabPanel("Model Distances (3d)", textOutput("plotlabelDent"),  webGLOutput("plotDists"))
+         tabPanel("Average Accuracy", list(textOutput("plotlabelAA"),HTML(urlNote)), plotOutput("accPlot")),
+         tabPanel("Accuracy Counts", list(textOutput("plotlabelAC"),HTML(urlNote)), plotOutput("countPlot")),
+         tabPanel("Model Dendrogram", list(textOutput("plotlabelDend"),HTML(urlNote)), plotOutput("plotDend")),
+         tabPanel("Model Distances (3d)", list(textOutput("plotlabelDent"),HTML(urlNote)),  webGLOutput("plotDists"))
       )
     )
     

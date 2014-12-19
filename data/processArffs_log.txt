@@ -1,0 +1,402 @@
+nohup: ignoring input
+processArffs.py:28: DeprecationWarning: the sets module is deprecated
+  import sets
+start 23595 Wed Dec 17 18:22:00 2014
+reading: data.tar.gz
+writing data to: modelres.csv.gz
+writing problem summaries to: problemDescr.csv
+	skip (test) adult/adult_test.arff
+	skip (test) annealing/annealing_test.arff
+	skip (test) audiology-std/con_patrons_repetidos/audiology-std_test.arff
+	skip (test) audiology-std/audiology-std_test.arff
+	skip (test) conn-bench-vowel-deterding/conn-bench-vowel-deterding_test.arff
+	skip (test) hayes-roth/hayes-roth_test.arff
+	skip (test) hill-valley/hill-valley_test.arff
+	skip (test) horse-colic/horse-colic_test.arff
+	skip (test) image-segmentation/image-segmentation_test.arff
+	skip (test) monks-1/monks-1_test.arff
+	skip (test) monks-2/monks-2_test.arff
+	skip (test) monks-3/monks-3_test.arff
+	skip (test) optical/optical_test.arff
+	skip (test) pendigits/pendigits_test.arff
+	skip (test) soybean/soybean_test.arff
+	skip (test) spect/spect_test.arff
+	skip (test) spectf/spectf_test.arff
+	skip (test) statlog-landsat/statlog-landsat_test.arff
+	skip (test) statlog-shuttle/statlog-shuttle_test.arff
+	skip (test) thyroid/thyroid_test.arff
+['abalone/abalone.arff', 'acute-inflammation/acute-inflammation.arff', 'acute-nephritis/acute-nephritis.arff', 'adult/adult_train.arff', 'annealing/annealing_train.arff', 'arrhythmia/arrhythmia.arff', 'audiology-std/con_patrons_repetidos/audiology-std_train.arff', 'audiology-std/audiology-std_train.arff', 'balance-scale/balance-scale.arff', 'balloons/balloons.arff', 'bank/bank.arff', 'blood/blood.arff', 'breast-cancer/breast-cancer.arff', 'breast-cancer-wisc/breast-cancer-wisc.arff', 'breast-cancer-wisc-diag/breast-cancer-wisc-diag.arff', 'breast-cancer-wisc-prog/breast-cancer-wisc-prog.arff', 'breast-tissue/breast-tissue.arff', 'car/car.arff', 'cardiotocography-3clases/cardiotocography-3clases.arff', 'cardiotocography-10clases/cardiotocography-10clases.arff', 'chess-krvk/chess-krvk.arff', 'chess-krvkp/chess-krvkp.arff', 'congressional-voting/congressional-voting.arff', 'conn-bench-sonar-mines-rocks/conn-bench-sonar-mines-rocks.arff', 'conn-bench-vowel-deterding/conn-bench-vowel-deterding_train.arff', 'connect-4/connect-4.arff', 'contrac/contrac.arff', 'credit-approval/credit-approval.arff', 'cylinder-bands/cylinder-bands.arff', 'dermatology/dermatology.arff', 'echocardiogram/echocardiogram.arff', 'ecoli/ecoli.arff', 'energy-y1/energy-y1.arff', 'energy-y2/energy-y2.arff', 'fertility/fertility.arff', 'flags/flags.arff', 'glass/glass.arff', 'haberman-survival/haberman-survival.arff', 'hayes-roth/hayes-roth_train.arff', 'heart-cleveland/heart-cleveland.arff', 'heart-hungarian/heart-hungarian.arff', 'heart-switzerland/heart-switzerland.arff', 'heart-va/heart-va.arff', 'hepatitis/hepatitis.arff', 'hill-valley/hill-valley_train.arff', 'horse-colic/horse-colic_train.arff', 'ilpd-indian-liver/ilpd-indian-liver.arff', 'image-segmentation/image-segmentation_train.arff', 'ionosphere/ionosphere.arff', 'iris/iris.arff', 'led-display/led-display.arff', 'lenses/lenses.arff', 'letter/letter.arff', 'libras/libras.arff', 'low-res-spect/low-res-spect.arff', 'lung-cancer/lung-cancer.arff', 'lymphography/lymphography.arff', 'magic/magic.arff', 'mammographic/mammographic.arff', 'miniboone/miniboone.arff', 'molec-biol-promoter/molec-biol-promoter.arff', 'molec-biol-splice/molec-biol-splice.arff', 'monks-1/monks-1_train.arff', 'monks-2/monks-2_train.arff', 'monks-3/monks-3_train.arff', 'mushroom/mushroom.arff', 'musk-1/musk-1.arff', 'musk-2/musk-2.arff', 'nursery/nursery.arff', 'oocytes_merluccius_nucleus_4d/oocytes_merluccius_nucleus_4d.arff', 'oocytes_merluccius_states_2f/oocytes_merluccius_states_2f.arff', 'oocytes_trisopterus_nucleus_2f/oocytes_trisopterus_nucleus_2f.arff', 'oocytes_trisopterus_states_5b/oocytes_trisopterus_states_5b.arff', 'optical/optical_train.arff', 'ozone/ozone.arff', 'page-blocks/page-blocks.arff', 'parkinsons/parkinsons.arff', 'pendigits/pendigits_train.arff', 'pima/pima.arff', 'pittsburg-bridges-MATERIAL/pittsburg-bridges-MATERIAL.arff', 'pittsburg-bridges-REL-L/pittsburg-bridges-REL-L.arff', 'pittsburg-bridges-SPAN/pittsburg-bridges-SPAN.arff', 'pittsburg-bridges-T-OR-D/pittsburg-bridges-T-OR-D.arff', 'pittsburg-bridges-TYPE/pittsburg-bridges-TYPE.arff', 'planning/planning.arff', 'plant-margin/plant-margin.arff', 'plant-shape/plant-shape.arff', 'plant-texture/plant-texture.arff', 'post-operative/post-operative.arff', 'primary-tumor/primary-tumor.arff', 'ringnorm/ringnorm.arff', 'seeds/seeds.arff', 'semeion/semeion.arff', 'soybean/soybean_train.arff', 'spambase/spambase.arff', 'spect/spect_train.arff', 'spectf/spectf_train.arff', 'statlog-australian-credit/statlog-australian-credit.arff', 'statlog-german-credit/statlog-german-credit.arff', 'statlog-heart/statlog-heart.arff', 'statlog-image/statlog-image.arff', 'statlog-landsat/statlog-landsat_train.arff', 'statlog-shuttle/statlog-shuttle_train.arff', 'statlog-vehicle/statlog-vehicle.arff', 'steel-plates/steel-plates.arff', 'synthetic-control/synthetic-control.arff', 'teaching/teaching.arff', 'thyroid/thyroid_train.arff', 'tic-tac-toe/tic-tac-toe.arff', 'titanic/titanic.arff', 'trains/trains.arff', 'twonorm/twonorm.arff', 'vertebral-column-2clases/datos_orixinais/column_3C_weka.arff', 'vertebral-column-2clases/datos_orixinais/column_2C_weka.arff', 'vertebral-column-2clases/vertebral-column-2clases.arff', 'vertebral-column-3clases/vertebral-column-3clases.arff', 'wall-following/wall-following.arff', 'waveform/waveform.arff', 'waveform-noise/waveform-noise.arff', 'wine/wine.arff', 'wine-quality-red/wine-quality-red.arff', 'wine-quality-white/wine-quality-white.arff', 'yeast/yeast.arff', 'zoo/zoo.arff'] 23595 Wed Dec 17 18:22:05 2014
+start	ecoli 23632 Wed Dec 17 18:22:13 2014
+initial 	['ecoli/ecoli.arff', u'ecoli', 336, 7, 8] 23632 Wed Dec 17 18:22:13 2014
+start	echocardiogram 23631 Wed Dec 17 18:22:13 2014
+initial 	['echocardiogram/echocardiogram.arff', u'echocardiogram', 131, 10, 2] 23631 Wed Dec 17 18:22:13 2014
+start	dermatology 23630 Wed Dec 17 18:22:13 2014
+initial 	['dermatology/dermatology.arff', u'dermatology', 366, 34, 6] 23630 Wed Dec 17 18:22:13 2014
+start	conn-bench-vowel-deterding 23625 Wed Dec 17 18:22:13 2014
+initial 	['conn-bench-vowel-deterding/conn-bench-vowel-deterding_train.arff', u'conn-bench-vowel-deterding', 528, 11, 11] 23625 Wed Dec 17 18:22:13 2014
+start	conn-bench-sonar-mines-rocks 23624 Wed Dec 17 18:22:13 2014
+initial 	['conn-bench-sonar-mines-rocks/conn-bench-sonar-mines-rocks.arff', u'conn-bench-sonar-mines-rocks', 208, 60, 2] 23624 Wed Dec 17 18:22:13 2014
+start	cylinder-bands 23629 Wed Dec 17 18:22:13 2014
+initial 	['cylinder-bands/cylinder-bands.arff', u'cylinder-bands', 512, 35, 2] 23629 Wed Dec 17 18:22:13 2014
+start	congressional-voting 23623 Wed Dec 17 18:22:13 2014
+initial 	['congressional-voting/congressional-voting.arff', u'congressional-voting', 435, 16, 2] 23623 Wed Dec 17 18:22:13 2014
+start	contrac 23627 Wed Dec 17 18:22:14 2014
+start	credit-approval 23628 Wed Dec 17 18:22:14 2014
+initial 	['credit-approval/credit-approval.arff', u'credit-approval', 690, 15, 2] 23628 Wed Dec 17 18:22:14 2014
+initial 	['contrac/contrac.arff', u'contrac', 1473, 9, 3] 23627 Wed Dec 17 18:22:14 2014
+start	car 23618 Wed Dec 17 18:22:14 2014
+initial 	['car/car.arff', u'car', 1728, 6, 4] 23618 Wed Dec 17 18:22:14 2014
+start	breast-tissue 23617 Wed Dec 17 18:22:14 2014
+initial 	['breast-tissue/breast-tissue.arff', u'breast-tissue', 106, 9, 6] 23617 Wed Dec 17 18:22:14 2014
+start	cardiotocography-10clases 23620 Wed Dec 17 18:22:14 2014
+initial 	['cardiotocography-10clases/cardiotocography-10clases.arff', u'cardiotocography-10clases', 2126, 21, 10] 23620 Wed Dec 17 18:22:14 2014
+start	breast-cancer-wisc 23614 Wed Dec 17 18:22:14 2014
+initial 	['breast-cancer-wisc/breast-cancer-wisc.arff', u'breast-cancer-wisc', 699, 9, 2] 23614 Wed Dec 17 18:22:14 2014
+start	chess-krvkp 23622 Wed Dec 17 18:22:14 2014
+start	breast-cancer-wisc-prog 23616 Wed Dec 17 18:22:14 2014
+initial 	['breast-cancer-wisc-prog/breast-cancer-wisc-prog.arff', u'breast-cancer-wisc-prog', 198, 33, 2] 23616 Wed Dec 17 18:22:14 2014
+initial 	['chess-krvkp/chess-krvkp.arff', u'chess-krvkp', 3196, 36, 2] 23622 Wed Dec 17 18:22:14 2014
+start	cardiotocography-3clases 23619 Wed Dec 17 18:22:14 2014
+start	breast-cancer 23613 Wed Dec 17 18:22:14 2014
+initial 	['cardiotocography-3clases/cardiotocography-3clases.arff', u'cardiotocography-3clases', 2126, 21, 3] 23619 Wed Dec 17 18:22:14 2014
+initial 	['breast-cancer/breast-cancer.arff', u'breast-cancer', 286, 9, 2] 23613 Wed Dec 17 18:22:14 2014
+start	breast-cancer-wisc-diag 23615 Wed Dec 17 18:22:14 2014
+initial 	['breast-cancer-wisc-diag/breast-cancer-wisc-diag.arff', u'breast-cancer-wisc-diag', 569, 30, 2] 23615 Wed Dec 17 18:22:14 2014
+start	balloons 23610 Wed Dec 17 18:22:14 2014
+initial 	['balloons/balloons.arff', u'balloons', 16, 4, 2] 23610 Wed Dec 17 18:22:14 2014
+start	blood 23612 Wed Dec 17 18:22:14 2014
+initial 	['blood/blood.arff', u'blood', 748, 4, 2] 23612 Wed Dec 17 18:22:14 2014
+start	audiology-std 23608 Wed Dec 17 18:22:14 2014
+initial 	['audiology-std/audiology-std_train.arff', u'audiology-std', 171, 59, 18] 23608 Wed Dec 17 18:22:14 2014
+start	acute-inflammation 23602 Wed Dec 17 18:22:14 2014
+initial 	['acute-inflammation/acute-inflammation.arff', u'acute-inflammation', 120, 6, 2] 23602 Wed Dec 17 18:22:14 2014
+start	annealing 23605 Wed Dec 17 18:22:14 2014
+initial 	['annealing/annealing_train.arff', u'annealing', 798, 31, 5] 23605 Wed Dec 17 18:22:14 2014
+start	bank 23611 Wed Dec 17 18:22:14 2014
+initial 	['bank/bank.arff', u'bank', 4521, 16, 2] 23611 Wed Dec 17 18:22:14 2014
+start	acute-nephritis 23603 Wed Dec 17 18:22:14 2014
+initial 	['acute-nephritis/acute-nephritis.arff', u'acute-nephritis', 120, 6, 2] 23603 Wed Dec 17 18:22:14 2014
+start	balance-scale 23609 Wed Dec 17 18:22:14 2014
+initial 	['balance-scale/balance-scale.arff', u'balance-scale', 625, 4, 3] 23609 Wed Dec 17 18:22:14 2014
+	done	['cylinder-bands/cylinder-bands.arff', u'cylinder-bands', 512, 'test-set cross-validation', 412, 100, 35, 2] 23629 Wed Dec 17 18:22:14 2014
+start	abalone 23601 Wed Dec 17 18:22:15 2014
+initial 	['abalone/abalone.arff', u'abalone', 4177, 8, 3] 23601 Wed Dec 17 18:22:15 2014
+start	audiology-std 23607 Wed Dec 17 18:22:15 2014
+start	chess-krvk 23621 Wed Dec 17 18:22:15 2014
+initial 	['audiology-std/con_patrons_repetidos/audiology-std_train.arff', u'audiology-std', 194, 59, 18] 23607 Wed Dec 17 18:22:15 2014
+start	arrhythmia 23606 Wed Dec 17 18:22:15 2014
+	done	['credit-approval/credit-approval.arff', u'credit-approval', 690, 'test-set cross-validation', 590, 100, 15, 2] 23628 Wed Dec 17 18:22:15 2014
+initial 	['chess-krvk/chess-krvk.arff', u'chess-krvk', 28056, 6, 18] 23621 Wed Dec 17 18:22:15 2014
+initial 	['arrhythmia/arrhythmia.arff', u'arrhythmia', 452, 262, 13] 23606 Wed Dec 17 18:22:15 2014
+	done	['breast-cancer-wisc/breast-cancer-wisc.arff', u'breast-cancer-wisc', 699, 'test-set cross-validation', 599, 100, 9, 2] 23614 Wed Dec 17 18:22:15 2014
+	done	['blood/blood.arff', u'blood', 748, 'test-set cross-validation', 648, 100, 4, 2] 23612 Wed Dec 17 18:22:15 2014
+	done	['breast-cancer-wisc-diag/breast-cancer-wisc-diag.arff', u'breast-cancer-wisc-diag', 569, 'test-set cross-validation', 469, 100, 30, 2] 23615 Wed Dec 17 18:22:16 2014
+	done	['balance-scale/balance-scale.arff', u'balance-scale', 625, 'test-set cross-validation', 525, 100, 4, 3] 23609 Wed Dec 17 18:22:16 2014
+start	adult 23604 Wed Dec 17 18:22:17 2014
+initial 	['adult/adult_train.arff', u'adult', 32561, 14, 2] 23604 Wed Dec 17 18:22:17 2014
+	done	['contrac/contrac.arff', u'contrac', 1473, 'test-set cross-validation', 1373, 100, 9, 3] 23627 Wed Dec 17 18:22:17 2014
+	done	['car/car.arff', u'car', 1728, 'test-set cross-validation', 1628, 100, 6, 4] 23618 Wed Dec 17 18:22:18 2014
+	done	['annealing/annealing_train.arff', u'annealing', 798, 'test-set cross-validation', 698, 100, 31, 5] 23605 Wed Dec 17 18:22:18 2014
+	done	['balloons/balloons.arff', u'balloons', 16, 'leave-one-out cross-validation', 15, 16, 4, 2] 23610 Wed Dec 17 18:22:19 2014
+	done	['conn-bench-vowel-deterding/conn-bench-vowel-deterding_train.arff', u'conn-bench-vowel-deterding', 528, 'test-set cross-validation', 428, 100, 11, 11] 23625 Wed Dec 17 18:22:19 2014
+	done	['cardiotocography-3clases/cardiotocography-3clases.arff', u'cardiotocography-3clases', 2126, 'test-set cross-validation', 2026, 100, 21, 3] 23619 Wed Dec 17 18:22:20 2014
+	done	['chess-krvkp/chess-krvkp.arff', u'chess-krvkp', 3196, 'test-set cross-validation', 3096, 100, 36, 2] 23622 Wed Dec 17 18:22:21 2014
+start	energy-y1 23629 Wed Dec 17 18:22:23 2014
+initial 	['energy-y1/energy-y1.arff', u'energy-y1', 768, 8, 3] 23629 Wed Dec 17 18:22:23 2014
+	done	['bank/bank.arff', u'bank', 4521, 'test-set cross-validation', 4421, 100, 16, 2] 23611 Wed Dec 17 18:22:23 2014
+start	energy-y2 23628 Wed Dec 17 18:22:23 2014
+initial 	['energy-y2/energy-y2.arff', u'energy-y2', 768, 8, 3] 23628 Wed Dec 17 18:22:23 2014
+start	fertility 23614 Wed Dec 17 18:22:24 2014
+initial 	['fertility/fertility.arff', u'fertility', 100, 9, 2] 23614 Wed Dec 17 18:22:24 2014
+start	flags 23612 Wed Dec 17 18:22:24 2014
+initial 	['flags/flags.arff', u'flags', 194, 28, 8] 23612 Wed Dec 17 18:22:24 2014
+	done	['energy-y1/energy-y1.arff', u'energy-y1', 768, 'test-set cross-validation', 668, 100, 8, 3] 23629 Wed Dec 17 18:22:25 2014
+start	glass 23615 Wed Dec 17 18:22:25 2014
+initial 	['glass/glass.arff', u'glass', 214, 9, 6] 23615 Wed Dec 17 18:22:25 2014
+	done	['energy-y2/energy-y2.arff', u'energy-y2', 768, 'test-set cross-validation', 668, 100, 8, 3] 23628 Wed Dec 17 18:22:25 2014
+start	haberman-survival 23609 Wed Dec 17 18:22:25 2014
+initial 	['haberman-survival/haberman-survival.arff', u'haberman-survival', 306, 3, 2] 23609 Wed Dec 17 18:22:25 2014
+start	hayes-roth 23627 Wed Dec 17 18:22:26 2014
+initial 	['hayes-roth/hayes-roth_train.arff', u'hayes-roth', 132, 3, 3] 23627 Wed Dec 17 18:22:26 2014
+start	heart-cleveland 23618 Wed Dec 17 18:22:27 2014
+initial 	['heart-cleveland/heart-cleveland.arff', u'heart-cleveland', 303, 13, 5] 23618 Wed Dec 17 18:22:27 2014
+start	connect-4 23626 Wed Dec 17 18:22:27 2014
+start	heart-hungarian 23605 Wed Dec 17 18:22:27 2014
+initial 	['heart-hungarian/heart-hungarian.arff', u'heart-hungarian', 294, 12, 2] 23605 Wed Dec 17 18:22:27 2014
+initial 	['connect-4/connect-4.arff', u'connect-4', 67557, 42, 2] 23626 Wed Dec 17 18:22:27 2014
+start	heart-switzerland 23610 Wed Dec 17 18:22:28 2014
+initial 	['heart-switzerland/heart-switzerland.arff', u'heart-switzerland', 123, 12, 5] 23610 Wed Dec 17 18:22:28 2014
+start	heart-va 23625 Wed Dec 17 18:22:28 2014
+initial 	['heart-va/heart-va.arff', u'heart-va', 200, 12, 5] 23625 Wed Dec 17 18:22:28 2014
+start	hepatitis 23619 Wed Dec 17 18:22:28 2014
+initial 	['hepatitis/hepatitis.arff', u'hepatitis', 155, 19, 2] 23619 Wed Dec 17 18:22:28 2014
+start	hill-valley 23622 Wed Dec 17 18:22:30 2014
+initial 	['hill-valley/hill-valley_train.arff', u'hill-valley', 606, 100, 2] 23622 Wed Dec 17 18:22:30 2014
+	done	['cardiotocography-10clases/cardiotocography-10clases.arff', u'cardiotocography-10clases', 2126, 'test-set cross-validation', 2026, 100, 21, 10] 23620 Wed Dec 17 18:22:30 2014
+	done	['abalone/abalone.arff', u'abalone', 4177, 'test-set cross-validation', 4077, 100, 8, 3] 23601 Wed Dec 17 18:22:31 2014
+start	horse-colic 23611 Wed Dec 17 18:22:32 2014
+initial 	['horse-colic/horse-colic_train.arff', u'horse-colic', 300, 25, 2] 23611 Wed Dec 17 18:22:32 2014
+start	ilpd-indian-liver 23629 Wed Dec 17 18:22:33 2014
+initial 	['ilpd-indian-liver/ilpd-indian-liver.arff', u'ilpd-indian-liver', 583, 9, 2] 23629 Wed Dec 17 18:22:33 2014
+start	image-segmentation 23628 Wed Dec 17 18:22:34 2014
+initial 	['image-segmentation/image-segmentation_train.arff', u'image-segmentation', 210, 18, 7] 23628 Wed Dec 17 18:22:34 2014
+	done	['ilpd-indian-liver/ilpd-indian-liver.arff', u'ilpd-indian-liver', 583, 'test-set cross-validation', 483, 100, 9, 2] 23629 Wed Dec 17 18:22:34 2014
+	done	['hill-valley/hill-valley_train.arff', u'hill-valley', 606, 'test-set cross-validation', 506, 100, 100, 2] 23622 Wed Dec 17 18:22:35 2014
+start	iris 23601 Wed Dec 17 18:22:39 2014
+initial 	['iris/iris.arff', u'iris', 150, 4, 3] 23601 Wed Dec 17 18:22:39 2014
+start	ionosphere 23620 Wed Dec 17 18:22:39 2014
+initial 	['ionosphere/ionosphere.arff', u'ionosphere', 351, 33, 2] 23620 Wed Dec 17 18:22:39 2014
+start	led-display 23629 Wed Dec 17 18:22:43 2014
+initial 	['led-display/led-display.arff', u'led-display', 1000, 7, 10] 23629 Wed Dec 17 18:22:43 2014
+start	lenses 23622 Wed Dec 17 18:22:43 2014
+initial 	['lenses/lenses.arff', u'lenses', 24, 4, 3] 23622 Wed Dec 17 18:22:43 2014
+	done	['acute-nephritis/acute-nephritis.arff', u'acute-nephritis', 120, 'leave-one-out cross-validation', 119, 100, 6, 2] 23603 Wed Dec 17 18:22:44 2014
+	done	['acute-inflammation/acute-inflammation.arff', u'acute-inflammation', 120, 'leave-one-out cross-validation', 119, 100, 6, 2] 23602 Wed Dec 17 18:22:45 2014
+	done	['echocardiogram/echocardiogram.arff', u'echocardiogram', 131, 'leave-one-out cross-validation', 130, 100, 10, 2] 23631 Wed Dec 17 18:22:46 2014
+	done	['led-display/led-display.arff', u'led-display', 1000, 'test-set cross-validation', 900, 100, 7, 10] 23629 Wed Dec 17 18:22:48 2014
+	done	['breast-cancer/breast-cancer.arff', u'breast-cancer', 286, 'leave-one-out cross-validation', 285, 100, 9, 2] 23613 Wed Dec 17 18:22:51 2014
+start	libras 23602 Wed Dec 17 18:22:54 2014
+initial 	['libras/libras.arff', u'libras', 360, 90, 15] 23602 Wed Dec 17 18:22:54 2014
+	done	['lenses/lenses.arff', u'lenses', 24, 'leave-one-out cross-validation', 23, 24, 4, 3] 23622 Wed Dec 17 18:22:55 2014
+start	letter 23603 Wed Dec 17 18:22:55 2014
+start	low-res-spect 23631 Wed Dec 17 18:22:55 2014
+initial 	['letter/letter.arff', u'letter', 20000, 16, 26] 23603 Wed Dec 17 18:22:55 2014
+initial 	['low-res-spect/low-res-spect.arff', u'low-res-spect', 531, 100, 9] 23631 Wed Dec 17 18:22:55 2014
+	done	['fertility/fertility.arff', u'fertility', 100, 'leave-one-out cross-validation', 99, 100, 9, 2] 23614 Wed Dec 17 18:22:57 2014
+start	lung-cancer 23629 Wed Dec 17 18:22:57 2014
+initial 	['lung-cancer/lung-cancer.arff', u'lung-cancer', 32, 56, 3] 23629 Wed Dec 17 18:22:57 2014
+	done	['congressional-voting/congressional-voting.arff', u'congressional-voting', 435, 'leave-one-out cross-validation', 434, 100, 16, 2] 23623 Wed Dec 17 18:23:00 2014
+start	lymphography 23613 Wed Dec 17 18:23:00 2014
+initial 	['lymphography/lymphography.arff', u'lymphography', 148, 18, 4] 23613 Wed Dec 17 18:23:00 2014
+	done	['haberman-survival/haberman-survival.arff', u'haberman-survival', 306, 'leave-one-out cross-validation', 305, 100, 3, 2] 23609 Wed Dec 17 18:23:03 2014
+start	magic 23622 Wed Dec 17 18:23:05 2014
+initial 	['magic/magic.arff', u'magic', 19020, 10, 2] 23622 Wed Dec 17 18:23:05 2014
+	done	['hepatitis/hepatitis.arff', u'hepatitis', 155, 'leave-one-out cross-validation', 154, 100, 19, 2] 23619 Wed Dec 17 18:23:05 2014
+start	mammographic 23614 Wed Dec 17 18:23:06 2014
+initial 	['mammographic/mammographic.arff', u'mammographic', 961, 5, 2] 23614 Wed Dec 17 18:23:06 2014
+	done	['breast-cancer-wisc-prog/breast-cancer-wisc-prog.arff', u'breast-cancer-wisc-prog', 198, 'leave-one-out cross-validation', 197, 100, 33, 2] 23616 Wed Dec 17 18:23:07 2014
+	done	['mammographic/mammographic.arff', u'mammographic', 961, 'test-set cross-validation', 861, 100, 5, 2] 23614 Wed Dec 17 18:23:07 2014
+	done	['heart-hungarian/heart-hungarian.arff', u'heart-hungarian', 294, 'leave-one-out cross-validation', 293, 100, 12, 2] 23605 Wed Dec 17 18:23:08 2014
+	done	['lung-cancer/lung-cancer.arff', u'lung-cancer', 32, 'leave-one-out cross-validation', 31, 32, 56, 3] 23629 Wed Dec 17 18:23:13 2014
+	done	['low-res-spect/low-res-spect.arff', u'low-res-spect', 531, 'test-set cross-validation', 431, 100, 100, 9] 23631 Wed Dec 17 18:23:14 2014
+start	molec-biol-promoter 23609 Wed Dec 17 18:23:15 2014
+initial 	['molec-biol-promoter/molec-biol-promoter.arff', u'molec-biol-promoter', 106, 57, 2] 23609 Wed Dec 17 18:23:15 2014
+	done	['horse-colic/horse-colic_train.arff', u'horse-colic', 300, 'leave-one-out cross-validation', 299, 100, 25, 2] 23611 Wed Dec 17 18:23:16 2014
+start	molec-biol-splice 23619 Wed Dec 17 18:23:18 2014
+initial 	['molec-biol-splice/molec-biol-splice.arff', u'molec-biol-splice', 3190, 60, 3] 23619 Wed Dec 17 18:23:18 2014
+start	monks-1 23616 Wed Dec 17 18:23:19 2014
+initial 	['monks-1/monks-1_train.arff', u'monks-1', 124, 6, 2] 23616 Wed Dec 17 18:23:19 2014
+start	monks-2 23614 Wed Dec 17 18:23:19 2014
+initial 	['monks-2/monks-2_train.arff', u'monks-2', 169, 6, 2] 23614 Wed Dec 17 18:23:19 2014
+	done	['hayes-roth/hayes-roth_train.arff', u'hayes-roth', 132, 'leave-one-out cross-validation', 131, 100, 3, 3] 23627 Wed Dec 17 18:23:19 2014
+start	monks-3 23605 Wed Dec 17 18:23:20 2014
+initial 	['monks-3/monks-3_train.arff', u'monks-3', 122, 6, 2] 23605 Wed Dec 17 18:23:20 2014
+	done	['conn-bench-sonar-mines-rocks/conn-bench-sonar-mines-rocks.arff', u'conn-bench-sonar-mines-rocks', 208, 'leave-one-out cross-validation', 207, 100, 60, 2] 23624 Wed Dec 17 18:23:24 2014
+start	musk-1 23631 Wed Dec 17 18:23:25 2014
+initial 	['musk-1/musk-1.arff', u'musk-1', 476, 166, 2] 23631 Wed Dec 17 18:23:25 2014
+start	mushroom 23629 Wed Dec 17 18:23:26 2014
+initial 	['mushroom/mushroom.arff', u'mushroom', 8124, 21, 2] 23629 Wed Dec 17 18:23:26 2014
+	done	['iris/iris.arff', u'iris', 150, 'leave-one-out cross-validation', 149, 100, 4, 3] 23601 Wed Dec 17 18:23:29 2014
+start	nursery 23627 Wed Dec 17 18:23:33 2014
+initial 	['nursery/nursery.arff', u'nursery', 12960, 8, 5] 23627 Wed Dec 17 18:23:33 2014
+start	musk-2 23611 Wed Dec 17 18:23:34 2014
+initial 	['musk-2/musk-2.arff', u'musk-2', 6598, 166, 2] 23611 Wed Dec 17 18:23:34 2014
+start	oocytes_merluccius_nucleus_4d 23624 Wed Dec 17 18:23:37 2014
+initial 	['oocytes_merluccius_nucleus_4d/oocytes_merluccius_nucleus_4d.arff', u'oocytes_merluccius_nucleus_4d', 1022, 41, 2] 23624 Wed Dec 17 18:23:37 2014
+	done	['breast-tissue/breast-tissue.arff', u'breast-tissue', 106, 'leave-one-out cross-validation', 105, 100, 9, 6] 23617 Wed Dec 17 18:23:37 2014
+	done	['molec-biol-splice/molec-biol-splice.arff', u'molec-biol-splice', 3190, 'test-set cross-validation', 3090, 100, 60, 3] 23619 Wed Dec 17 18:23:40 2014
+	done	['oocytes_merluccius_nucleus_4d/oocytes_merluccius_nucleus_4d.arff', u'oocytes_merluccius_nucleus_4d', 1022, 'test-set cross-validation', 922, 100, 41, 2] 23624 Wed Dec 17 18:23:41 2014
+	done	['mushroom/mushroom.arff', u'mushroom', 8124, 'test-set cross-validation', 8024, 100, 21, 2] 23629 Wed Dec 17 18:23:42 2014
+start	miniboone 23623 Wed Dec 17 18:23:42 2014
+start	oocytes_merluccius_states_2f 23601 Wed Dec 17 18:23:42 2014
+initial 	['oocytes_merluccius_states_2f/oocytes_merluccius_states_2f.arff', u'oocytes_merluccius_states_2f', 1022, 25, 3] 23601 Wed Dec 17 18:23:42 2014
+initial 	['miniboone/miniboone.arff', u'miniboone', 130064, 50, 2] 23623 Wed Dec 17 18:23:44 2014
+	done	['ionosphere/ionosphere.arff', u'ionosphere', 351, 'leave-one-out cross-validation', 350, 100, 33, 2] 23620 Wed Dec 17 18:23:45 2014
+	done	['heart-switzerland/heart-switzerland.arff', u'heart-switzerland', 123, 'leave-one-out cross-validation', 122, 100, 12, 5] 23610 Wed Dec 17 18:23:45 2014
+	done	['oocytes_merluccius_states_2f/oocytes_merluccius_states_2f.arff', u'oocytes_merluccius_states_2f', 1022, 'test-set cross-validation', 922, 100, 25, 3] 23601 Wed Dec 17 18:23:48 2014
+start	oocytes_trisopterus_nucleus_2f 23617 Wed Dec 17 18:23:50 2014
+initial 	['oocytes_trisopterus_nucleus_2f/oocytes_trisopterus_nucleus_2f.arff', u'oocytes_trisopterus_nucleus_2f', 912, 25, 2] 23617 Wed Dec 17 18:23:50 2014
+	done	['monks-1/monks-1_train.arff', u'monks-1', 124, 'leave-one-out cross-validation', 123, 100, 6, 2] 23616 Wed Dec 17 18:23:52 2014
+start	oocytes_trisopterus_states_5b 23619 Wed Dec 17 18:23:53 2014
+initial 	['oocytes_trisopterus_states_5b/oocytes_trisopterus_states_5b.arff', u'oocytes_trisopterus_states_5b', 912, 32, 3] 23619 Wed Dec 17 18:23:53 2014
+	done	['heart-va/heart-va.arff', u'heart-va', 200, 'leave-one-out cross-validation', 199, 100, 12, 5] 23625 Wed Dec 17 18:23:53 2014
+	done	['oocytes_trisopterus_nucleus_2f/oocytes_trisopterus_nucleus_2f.arff', u'oocytes_trisopterus_nucleus_2f', 912, 'test-set cross-validation', 812, 100, 25, 2] 23617 Wed Dec 17 18:23:53 2014
+	done	['monks-3/monks-3_train.arff', u'monks-3', 122, 'leave-one-out cross-validation', 121, 100, 6, 2] 23605 Wed Dec 17 18:23:54 2014
+	done	['molec-biol-promoter/molec-biol-promoter.arff', u'molec-biol-promoter', 106, 'leave-one-out cross-validation', 105, 100, 57, 2] 23609 Wed Dec 17 18:23:54 2014
+start	optical 23624 Wed Dec 17 18:23:55 2014
+initial 	['optical/optical_train.arff', u'optical', 3823, 62, 10] 23624 Wed Dec 17 18:23:55 2014
+	done	['monks-2/monks-2_train.arff', u'monks-2', 169, 'leave-one-out cross-validation', 168, 100, 6, 2] 23614 Wed Dec 17 18:23:55 2014
+start	ozone 23629 Wed Dec 17 18:23:55 2014
+initial 	['ozone/ozone.arff', u'ozone', 2536, 72, 2] 23629 Wed Dec 17 18:23:55 2014
+start	page-blocks 23620 Wed Dec 17 18:23:58 2014
+initial 	['page-blocks/page-blocks.arff', u'page-blocks', 5473, 10, 5] 23620 Wed Dec 17 18:23:58 2014
+start	parkinsons 23610 Wed Dec 17 18:23:58 2014
+initial 	['parkinsons/parkinsons.arff', u'parkinsons', 195, 22, 2] 23610 Wed Dec 17 18:23:58 2014
+	done	['oocytes_trisopterus_states_5b/oocytes_trisopterus_states_5b.arff', u'oocytes_trisopterus_states_5b', 912, 'test-set cross-validation', 812, 100, 32, 3] 23619 Wed Dec 17 18:23:59 2014
+start	pendigits 23601 Wed Dec 17 18:24:02 2014
+initial 	['pendigits/pendigits_train.arff', u'pendigits', 7494, 16, 10] 23601 Wed Dec 17 18:24:02 2014
+	done	['ozone/ozone.arff', u'ozone', 2536, 'test-set cross-validation', 2436, 100, 72, 2] 23629 Wed Dec 17 18:24:03 2014
+start	pima 23616 Wed Dec 17 18:24:05 2014
+initial 	['pima/pima.arff', u'pima', 768, 8, 2] 23616 Wed Dec 17 18:24:05 2014
+start	pittsburg-bridges-REL-L 23617 Wed Dec 17 18:24:06 2014
+initial 	['pittsburg-bridges-REL-L/pittsburg-bridges-REL-L.arff', u'pittsburg-bridges-REL-L', 103, 7, 3] 23617 Wed Dec 17 18:24:06 2014
+	done	['pima/pima.arff', u'pima', 768, 'test-set cross-validation', 668, 100, 8, 2] 23616 Wed Dec 17 18:24:06 2014
+start	pittsburg-bridges-MATERIAL 23625 Wed Dec 17 18:24:06 2014
+initial 	['pittsburg-bridges-MATERIAL/pittsburg-bridges-MATERIAL.arff', u'pittsburg-bridges-MATERIAL', 106, 7, 3] 23625 Wed Dec 17 18:24:06 2014
+	done	['heart-cleveland/heart-cleveland.arff', u'heart-cleveland', 303, 'leave-one-out cross-validation', 302, 100, 13, 5] 23618 Wed Dec 17 18:24:06 2014
+	done	['lymphography/lymphography.arff', u'lymphography', 148, 'leave-one-out cross-validation', 147, 100, 18, 4] 23613 Wed Dec 17 18:24:07 2014
+start	pittsburg-bridges-SPAN 23605 Wed Dec 17 18:24:07 2014
+initial 	['pittsburg-bridges-SPAN/pittsburg-bridges-SPAN.arff', u'pittsburg-bridges-SPAN', 92, 7, 3] 23605 Wed Dec 17 18:24:07 2014
+	done	['glass/glass.arff', u'glass', 214, 'leave-one-out cross-validation', 213, 100, 9, 6] 23615 Wed Dec 17 18:24:07 2014
+start	pittsburg-bridges-T-OR-D 23609 Wed Dec 17 18:24:08 2014
+initial 	['pittsburg-bridges-T-OR-D/pittsburg-bridges-T-OR-D.arff', u'pittsburg-bridges-T-OR-D', 102, 7, 2] 23609 Wed Dec 17 18:24:08 2014
+start	pittsburg-bridges-TYPE 23614 Wed Dec 17 18:24:08 2014
+initial 	['pittsburg-bridges-TYPE/pittsburg-bridges-TYPE.arff', u'pittsburg-bridges-TYPE', 105, 7, 6] 23614 Wed Dec 17 18:24:08 2014
+start	planning 23619 Wed Dec 17 18:24:12 2014
+initial 	['planning/planning.arff', u'planning', 182, 12, 2] 23619 Wed Dec 17 18:24:12 2014
+	done	['page-blocks/page-blocks.arff', u'page-blocks', 5473, 'test-set cross-validation', 5373, 100, 10, 5] 23620 Wed Dec 17 18:24:15 2014
+start	plant-margin 23629 Wed Dec 17 18:24:18 2014
+initial 	['plant-margin/plant-margin.arff', u'plant-margin', 1600, 64, 100] 23629 Wed Dec 17 18:24:18 2014
+	done	['ecoli/ecoli.arff', u'ecoli', 336, 'leave-one-out cross-validation', 335, 100, 7, 8] 23632 Wed Dec 17 18:24:20 2014
+start	plant-shape 23616 Wed Dec 17 18:24:21 2014
+initial 	['plant-shape/plant-shape.arff', u'plant-shape', 1600, 64, 100] 23616 Wed Dec 17 18:24:21 2014
+start	post-operative 23613 Wed Dec 17 18:24:21 2014
+initial 	['post-operative/post-operative.arff', u'post-operative', 90, 8, 3] 23613 Wed Dec 17 18:24:21 2014
+start	primary-tumor 23615 Wed Dec 17 18:24:21 2014
+initial 	['primary-tumor/primary-tumor.arff', u'primary-tumor', 330, 17, 15] 23615 Wed Dec 17 18:24:21 2014
+start	plant-texture 23618 Wed Dec 17 18:24:22 2014
+initial 	['plant-texture/plant-texture.arff', u'plant-texture', 1599, 64, 100] 23618 Wed Dec 17 18:24:22 2014
+	done	['nursery/nursery.arff', u'nursery', 12960, 'test-set cross-validation', 12860, 100, 8, 5] 23627 Wed Dec 17 18:24:23 2014
+start	ringnorm 23620 Wed Dec 17 18:24:30 2014
+initial 	['ringnorm/ringnorm.arff', u'ringnorm', 7400, 20, 2] 23620 Wed Dec 17 18:24:30 2014
+	done	['dermatology/dermatology.arff', u'dermatology', 366, 'leave-one-out cross-validation', 365, 100, 34, 6] 23630 Wed Dec 17 18:24:31 2014
+start	seeds 23632 Wed Dec 17 18:24:34 2014
+initial 	['seeds/seeds.arff', u'seeds', 210, 7, 3] 23632 Wed Dec 17 18:24:34 2014
+	done	['musk-2/musk-2.arff', u'musk-2', 6598, 'test-set cross-validation', 6498, 100, 166, 2] 23611 Wed Dec 17 18:24:39 2014
+start	semeion 23627 Wed Dec 17 18:24:39 2014
+initial 	['semeion/semeion.arff', u'semeion', 1593, 256, 10] 23627 Wed Dec 17 18:24:39 2014
+	done	['image-segmentation/image-segmentation_train.arff', u'image-segmentation', 210, 'leave-one-out cross-validation', 209, 100, 18, 7] 23628 Wed Dec 17 18:24:40 2014
+	done	['pittsburg-bridges-T-OR-D/pittsburg-bridges-T-OR-D.arff', u'pittsburg-bridges-T-OR-D', 102, 'leave-one-out cross-validation', 101, 100, 7, 2] 23609 Wed Dec 17 18:24:42 2014
+	done	['parkinsons/parkinsons.arff', u'parkinsons', 195, 'leave-one-out cross-validation', 194, 100, 22, 2] 23610 Wed Dec 17 18:24:44 2014
+start	soybean 23630 Wed Dec 17 18:24:45 2014
+initial 	['soybean/soybean_train.arff', u'soybean', 307, 35, 18] 23630 Wed Dec 17 18:24:45 2014
+	done	['flags/flags.arff', u'flags', 194, 'leave-one-out cross-validation', 193, 100, 28, 8] 23612 Wed Dec 17 18:24:53 2014
+	done	['pendigits/pendigits_train.arff', u'pendigits', 7494, 'test-set cross-validation', 7394, 100, 16, 10] 23601 Wed Dec 17 18:24:53 2014
+	done	['optical/optical_train.arff', u'optical', 3823, 'test-set cross-validation', 3723, 100, 62, 10] 23624 Wed Dec 17 18:24:54 2014
+	done	['planning/planning.arff', u'planning', 182, 'leave-one-out cross-validation', 181, 100, 12, 2] 23619 Wed Dec 17 18:24:55 2014
+start	spect 23628 Wed Dec 17 18:24:55 2014
+initial 	['spect/spect_train.arff', u'spect', 79, 22, 2] 23628 Wed Dec 17 18:24:55 2014
+	done	['pittsburg-bridges-SPAN/pittsburg-bridges-SPAN.arff', u'pittsburg-bridges-SPAN', 92, 'leave-one-out cross-validation', 91, 92, 7, 3] 23605 Wed Dec 17 18:24:55 2014
+start	spambase 23611 Wed Dec 17 18:24:56 2014
+initial 	['spambase/spambase.arff', u'spambase', 4601, 57, 2] 23611 Wed Dec 17 18:24:56 2014
+start	spectf 23609 Wed Dec 17 18:24:56 2014
+initial 	['spectf/spectf_train.arff', u'spectf', 80, 44, 2] 23609 Wed Dec 17 18:24:56 2014
+	done	['pittsburg-bridges-MATERIAL/pittsburg-bridges-MATERIAL.arff', u'pittsburg-bridges-MATERIAL', 106, 'leave-one-out cross-validation', 105, 100, 7, 3] 23625 Wed Dec 17 18:24:57 2014
+	done	['pittsburg-bridges-REL-L/pittsburg-bridges-REL-L.arff', u'pittsburg-bridges-REL-L', 103, 'leave-one-out cross-validation', 102, 100, 7, 3] 23617 Wed Dec 17 18:24:58 2014
+start	statlog-australian-credit 23610 Wed Dec 17 18:24:58 2014
+initial 	['statlog-australian-credit/statlog-australian-credit.arff', u'statlog-australian-credit', 690, 14, 2] 23610 Wed Dec 17 18:24:58 2014
+	done	['ringnorm/ringnorm.arff', u'ringnorm', 7400, 'test-set cross-validation', 7300, 100, 20, 2] 23620 Wed Dec 17 18:24:59 2014
+	done	['statlog-australian-credit/statlog-australian-credit.arff', u'statlog-australian-credit', 690, 'test-set cross-validation', 590, 100, 14, 2] 23610 Wed Dec 17 18:25:00 2014
+start	statlog-german-credit 23612 Wed Dec 17 18:25:08 2014
+initial 	['statlog-german-credit/statlog-german-credit.arff', u'statlog-german-credit', 1000, 24, 2] 23612 Wed Dec 17 18:25:08 2014
+start	statlog-heart 23601 Wed Dec 17 18:25:08 2014
+initial 	['statlog-heart/statlog-heart.arff', u'statlog-heart', 270, 13, 2] 23601 Wed Dec 17 18:25:08 2014
+	done	['post-operative/post-operative.arff', u'post-operative', 90, 'leave-one-out cross-validation', 89, 90, 8, 3] 23613 Wed Dec 17 18:25:08 2014
+start	statlog-image 23624 Wed Dec 17 18:25:09 2014
+initial 	['statlog-image/statlog-image.arff', u'statlog-image', 2310, 18, 7] 23624 Wed Dec 17 18:25:09 2014
+	done	['statlog-german-credit/statlog-german-credit.arff', u'statlog-german-credit', 1000, 'test-set cross-validation', 900, 100, 24, 2] 23612 Wed Dec 17 18:25:10 2014
+start	statlog-landsat 23619 Wed Dec 17 18:25:10 2014
+initial 	['statlog-landsat/statlog-landsat_train.arff', u'statlog-landsat', 4435, 36, 6] 23619 Wed Dec 17 18:25:10 2014
+start	statlog-shuttle 23605 Wed Dec 17 18:25:12 2014
+start	statlog-vehicle 23625 Wed Dec 17 18:25:12 2014
+initial 	['statlog-vehicle/statlog-vehicle.arff', u'statlog-vehicle', 846, 18, 4] 23625 Wed Dec 17 18:25:12 2014
+initial 	['statlog-shuttle/statlog-shuttle_train.arff', u'statlog-shuttle', 43500, 9, 7] 23605 Wed Dec 17 18:25:12 2014
+start	steel-plates 23617 Wed Dec 17 18:25:13 2014
+initial 	['steel-plates/steel-plates.arff', u'steel-plates', 1941, 27, 7] 23617 Wed Dec 17 18:25:13 2014
+	done	['spambase/spambase.arff', u'spambase', 4601, 'test-set cross-validation', 4501, 100, 57, 2] 23611 Wed Dec 17 18:25:14 2014
+start	synthetic-control 23620 Wed Dec 17 18:25:14 2014
+initial 	['synthetic-control/synthetic-control.arff', u'synthetic-control', 600, 60, 6] 23620 Wed Dec 17 18:25:14 2014
+start	teaching 23610 Wed Dec 17 18:25:14 2014
+initial 	['teaching/teaching.arff', u'teaching', 151, 5, 3] 23610 Wed Dec 17 18:25:14 2014
+	done	['statlog-vehicle/statlog-vehicle.arff', u'statlog-vehicle', 846, 'test-set cross-validation', 746, 100, 18, 4] 23625 Wed Dec 17 18:25:16 2014
+	done	['spect/spect_train.arff', u'spect', 79, 'leave-one-out cross-validation', 78, 79, 22, 2] 23628 Wed Dec 17 18:25:19 2014
+	done	['synthetic-control/synthetic-control.arff', u'synthetic-control', 600, 'test-set cross-validation', 500, 100, 60, 6] 23620 Wed Dec 17 18:25:23 2014
+	done	['statlog-image/statlog-image.arff', u'statlog-image', 2310, 'test-set cross-validation', 2210, 100, 18, 7] 23624 Wed Dec 17 18:25:23 2014
+start	thyroid 23613 Wed Dec 17 18:25:23 2014
+initial 	['thyroid/thyroid_train.arff', u'thyroid', 3772, 21, 3] 23613 Wed Dec 17 18:25:23 2014
+start	tic-tac-toe 23612 Wed Dec 17 18:25:25 2014
+initial 	['tic-tac-toe/tic-tac-toe.arff', u'tic-tac-toe', 958, 9, 2] 23612 Wed Dec 17 18:25:25 2014
+	done	['spectf/spectf_train.arff', u'spectf', 80, 'leave-one-out cross-validation', 79, 80, 44, 2] 23609 Wed Dec 17 18:25:26 2014
+	done	['tic-tac-toe/tic-tac-toe.arff', u'tic-tac-toe', 958, 'test-set cross-validation', 858, 100, 9, 2] 23612 Wed Dec 17 18:25:26 2014
+	done	['pittsburg-bridges-TYPE/pittsburg-bridges-TYPE.arff', u'pittsburg-bridges-TYPE', 105, 'leave-one-out cross-validation', 104, 100, 7, 6] 23614 Wed Dec 17 18:25:26 2014
+start	titanic 23611 Wed Dec 17 18:25:29 2014
+initial 	['titanic/titanic.arff', u'titanic', 2201, 3, 2] 23611 Wed Dec 17 18:25:29 2014
+start	trains 23625 Wed Dec 17 18:25:30 2014
+initial 	['trains/trains.arff', u'trains', 10, 29, 2] 23625 Wed Dec 17 18:25:30 2014
+	skip (could not split) trains/trains.arff 23625 Wed Dec 17 18:25:30 2014
+	done	['thyroid/thyroid_train.arff', u'thyroid', 3772, 'test-set cross-validation', 3672, 100, 21, 3] 23613 Wed Dec 17 18:25:32 2014
+	done	['steel-plates/steel-plates.arff', u'steel-plates', 1941, 'test-set cross-validation', 1841, 100, 27, 7] 23617 Wed Dec 17 18:25:32 2014
+	done	['titanic/titanic.arff', u'titanic', 2201, 'test-set cross-validation', 2101, 100, 3, 2] 23611 Wed Dec 17 18:25:32 2014
+start	twonorm 23628 Wed Dec 17 18:25:35 2014
+initial 	['twonorm/twonorm.arff', u'twonorm', 7400, 20, 2] 23628 Wed Dec 17 18:25:35 2014
+	done	['seeds/seeds.arff', u'seeds', 210, 'leave-one-out cross-validation', 209, 100, 7, 3] 23632 Wed Dec 17 18:25:36 2014
+start	column_3C_weka 23620 Wed Dec 17 18:25:37 2014
+initial 	['vertebral-column-2clases/datos_orixinais/column_3C_weka.arff', u'column_3C_weka', 310, 6, 3] 23620 Wed Dec 17 18:25:37 2014
+start	column_2C_weka 23624 Wed Dec 17 18:25:38 2014
+initial 	['vertebral-column-2clases/datos_orixinais/column_2C_weka.arff', u'column_2C_weka', 310, 6, 2] 23624 Wed Dec 17 18:25:38 2014
+	done	['statlog-landsat/statlog-landsat_train.arff', u'statlog-landsat', 4435, 'test-set cross-validation', 4335, 100, 36, 6] 23619 Wed Dec 17 18:25:41 2014
+start	vertebral-column-2clases 23609 Wed Dec 17 18:25:41 2014
+initial 	['vertebral-column-2clases/vertebral-column-2clases.arff', u'vertebral-column-2clases', 310, 6, 2] 23609 Wed Dec 17 18:25:41 2014
+start	vertebral-column-3clases 23612 Wed Dec 17 18:25:41 2014
+initial 	['vertebral-column-3clases/vertebral-column-3clases.arff', u'vertebral-column-3clases', 310, 6, 3] 23612 Wed Dec 17 18:25:41 2014
+start	wall-following 23614 Wed Dec 17 18:25:42 2014
+initial 	['wall-following/wall-following.arff', u'wall-following', 5456, 24, 4] 23614 Wed Dec 17 18:25:42 2014
+	done	['statlog-heart/statlog-heart.arff', u'statlog-heart', 270, 'leave-one-out cross-validation', 269, 100, 13, 2] 23601 Wed Dec 17 18:25:46 2014
+start	waveform 23625 Wed Dec 17 18:25:46 2014
+initial 	['waveform/waveform.arff', u'waveform', 5000, 21, 3] 23625 Wed Dec 17 18:25:46 2014
+start	waveform-noise 23613 Wed Dec 17 18:25:47 2014
+initial 	['waveform-noise/waveform-noise.arff', u'waveform-noise', 5000, 40, 3] 23613 Wed Dec 17 18:25:47 2014
+start	wine 23617 Wed Dec 17 18:25:48 2014
+initial 	['wine/wine.arff', u'wine', 178, 13, 3] 23617 Wed Dec 17 18:25:48 2014
+start	wine-quality-red 23611 Wed Dec 17 18:25:48 2014
+initial 	['wine-quality-red/wine-quality-red.arff', u'wine-quality-red', 1599, 11, 6] 23611 Wed Dec 17 18:25:48 2014
+start	wine-quality-white 23632 Wed Dec 17 18:25:51 2014
+initial 	['wine-quality-white/wine-quality-white.arff', u'wine-quality-white', 4898, 11, 7] 23632 Wed Dec 17 18:25:51 2014
+	done	['twonorm/twonorm.arff', u'twonorm', 7400, 'test-set cross-validation', 7300, 100, 20, 2] 23628 Wed Dec 17 18:25:52 2014
+	done	['wine-quality-red/wine-quality-red.arff', u'wine-quality-red', 1599, 'test-set cross-validation', 1499, 100, 11, 6] 23611 Wed Dec 17 18:25:56 2014
+start	yeast 23619 Wed Dec 17 18:25:57 2014
+initial 	['yeast/yeast.arff', u'yeast', 1484, 8, 10] 23619 Wed Dec 17 18:25:57 2014
+	done	['semeion/semeion.arff', u'semeion', 1593, 'test-set cross-validation', 1493, 100, 256, 10] 23627 Wed Dec 17 18:26:00 2014
+start	zoo 23601 Wed Dec 17 18:26:01 2014
+initial 	['zoo/zoo.arff', u'zoo', 101, 16, 7] 23601 Wed Dec 17 18:26:01 2014
+	done	['yeast/yeast.arff', u'yeast', 1484, 'test-set cross-validation', 1384, 100, 8, 10] 23619 Wed Dec 17 18:26:05 2014
+	done	['teaching/teaching.arff', u'teaching', 151, 'leave-one-out cross-validation', 150, 100, 5, 3] 23610 Wed Dec 17 18:26:06 2014
+	done	['waveform/waveform.arff', u'waveform', 5000, 'test-set cross-validation', 4900, 100, 21, 3] 23625 Wed Dec 17 18:26:06 2014
+	done	['vertebral-column-2clases/datos_orixinais/column_2C_weka.arff', u'column_2C_weka', 310, 'leave-one-out cross-validation', 309, 100, 6, 2] 23624 Wed Dec 17 18:26:14 2014
+	done	['waveform-noise/waveform-noise.arff', u'waveform-noise', 5000, 'test-set cross-validation', 4900, 100, 40, 3] 23613 Wed Dec 17 18:26:17 2014
+	done	['vertebral-column-2clases/vertebral-column-2clases.arff', u'vertebral-column-2clases', 310, 'leave-one-out cross-validation', 309, 100, 6, 2] 23609 Wed Dec 17 18:26:18 2014
+	done	['magic/magic.arff', u'magic', 19020, 'test-set cross-validation', 18920, 100, 10, 2] 23622 Wed Dec 17 18:26:20 2014
+	done	['wall-following/wall-following.arff', u'wall-following', 5456, 'test-set cross-validation', 5356, 100, 24, 4] 23614 Wed Dec 17 18:26:21 2014
+	done	['wine-quality-white/wine-quality-white.arff', u'wine-quality-white', 4898, 'test-set cross-validation', 4798, 100, 11, 7] 23632 Wed Dec 17 18:26:25 2014
+	done	['wine/wine.arff', u'wine', 178, 'leave-one-out cross-validation', 177, 100, 13, 3] 23617 Wed Dec 17 18:26:34 2014
+	done	['musk-1/musk-1.arff', u'musk-1', 476, 'leave-one-out cross-validation', 475, 100, 166, 2] 23631 Wed Dec 17 18:26:38 2014
+	done	['audiology-std/audiology-std_train.arff', u'audiology-std', 171, 'leave-one-out cross-validation', 170, 100, 59, 18] 23608 Wed Dec 17 18:26:39 2014
+	done	['vertebral-column-2clases/datos_orixinais/column_3C_weka.arff', u'column_3C_weka', 310, 'leave-one-out cross-validation', 309, 100, 6, 3] 23620 Wed Dec 17 18:26:40 2014
+	done	['vertebral-column-3clases/vertebral-column-3clases.arff', u'vertebral-column-3clases', 310, 'leave-one-out cross-validation', 309, 100, 6, 3] 23612 Wed Dec 17 18:26:42 2014
+	done	['audiology-std/con_patrons_repetidos/audiology-std_train.arff', u'audiology-std', 194, 'leave-one-out cross-validation', 193, 100, 59, 18] 23607 Wed Dec 17 18:26:50 2014
+	done	['zoo/zoo.arff', u'zoo', 101, 'leave-one-out cross-validation', 100, 100, 16, 7] 23601 Wed Dec 17 18:26:54 2014
+	done	['plant-texture/plant-texture.arff', u'plant-texture', 1599, 'test-set cross-validation', 1499, 100, 64, 100] 23618 Wed Dec 17 18:27:17 2014
+	done	['plant-margin/plant-margin.arff', u'plant-margin', 1600, 'test-set cross-validation', 1500, 100, 64, 100] 23629 Wed Dec 17 18:27:28 2014
+	done	['primary-tumor/primary-tumor.arff', u'primary-tumor', 330, 'leave-one-out cross-validation', 329, 100, 17, 15] 23615 Wed Dec 17 18:27:40 2014
+	done	['soybean/soybean_train.arff', u'soybean', 307, 'leave-one-out cross-validation', 306, 100, 35, 18] 23630 Wed Dec 17 18:28:22 2014
+	done	['statlog-shuttle/statlog-shuttle_train.arff', u'statlog-shuttle', 43500, 'test-set cross-validation', 43400, 100, 9, 7] 23605 Wed Dec 17 18:29:00 2014
+	done	['adult/adult_train.arff', u'adult', 32561, 'test-set cross-validation', 32461, 100, 14, 2] 23604 Wed Dec 17 18:29:25 2014
+	done	['plant-shape/plant-shape.arff', u'plant-shape', 1600, 'test-set cross-validation', 1500, 100, 64, 100] 23616 Wed Dec 17 18:29:30 2014
+	done	['letter/letter.arff', u'letter', 20000, 'test-set cross-validation', 19900, 100, 16, 26] 23603 Wed Dec 17 18:29:36 2014
+	done	['chess-krvk/chess-krvk.arff', u'chess-krvk', 28056, 'test-set cross-validation', 27956, 100, 6, 18] 23621 Wed Dec 17 18:33:45 2014
+	done	['libras/libras.arff', u'libras', 360, 'leave-one-out cross-validation', 359, 100, 90, 15] 23602 Wed Dec 17 18:34:41 2014
+	done	['arrhythmia/arrhythmia.arff', u'arrhythmia', 452, 'leave-one-out cross-validation', 451, 100, 262, 13] 23606 Wed Dec 17 18:39:41 2014
+	done	['connect-4/connect-4.arff', u'connect-4', 67557, 'test-set cross-validation', 67457, 100, 42, 2] 23626 Wed Dec 17 19:28:23 2014
+	done	['miniboone/miniboone.arff', u'miniboone', 130064, 'test-set cross-validation', 129964, 100, 50, 2] 23623 Wed Dec 17 21:56:09 2014
+done processing pool 23595 Wed Dec 17 21:56:09 2014
+done 23595 Wed Dec 17 21:56:28 2014
